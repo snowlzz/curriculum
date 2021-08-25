@@ -75,17 +75,20 @@ header p{
     background-color: rgb(128, 100, 128);
     width: 35%;
     height: 30vh;
-    margin-left: 20.5rem;
+    margin-left: 20rem;
     margin-top: 25px;
     border-radius: 10px;
 }
 
-.soft-skills h3{
-    font-family: var(--font-primary);
-    margin-left: 4px;
-    top: 20%;
-    font-size: 28px;
+.soft{
+    font-family: var(--font-action);
+    padding-top: 5px;
+    margin-left: 5px;
+    font-size: 32px;
+    font-weight: 600em;
+    color: #000000;
 }
+
 
 .a-icon{
     position: inherit;
@@ -133,7 +136,7 @@ header p{
 }
 
 .menu a:hover{
-    color:rgb(66, 0, 104);
+    color:rgb(255, 255, 255);
     transition: color 1s;
 }
 
