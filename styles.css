@@ -44,9 +44,12 @@ header p{
 
 .devl{
     width: 60%;
+    height: 50%;
+    position: relative;
+    display: fixed;
 }
 
-.text-p{
+.devl p{
     margin-left: 18em;
     font-size: 16px;
     color: #303030;
@@ -87,9 +90,11 @@ header p{
     margin-left: 20rem;
     margin-top: 25px;
     border-radius: 10px;
+    position: relative;
+    display: block;
 }
 
-.soft{
+.soft-skills h1{
     font-family: var(--font-primary);
     padding-top: 5px;
     margin-left: 5px;
